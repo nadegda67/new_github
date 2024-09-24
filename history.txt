@@ -1,0 +1,50 @@
+  502  git clone git@github.com:nadegda67/new_github.git
+  503  cd /c/Users/ICH/new_github
+  504  ls -la
+  505  nano .gitignore
+  506  git status
+  507  git add .gitignore
+  508  git status
+  509  git commit -m " Created .gitignore"
+  510  git push
+  511  git checkout -b feature
+  512  git branch
+  513  ls -la
+  514  nano .gitignore
+  515  git status
+  516  git add .gitignore
+  517  git status
+  518  git commit -m "Added changes to the .gitignore"
+  519  git status
+  520  git push -u origin feature
+  521  echo "This is a homework12" >> README.md
+  522  git status
+  523  git add README.md
+  524  git status
+  525  git commit -m "Changed README.md"
+  526  git push -u origin feature
+  527  export EDITOR=nano
+  528  git commit --amend
+  529  git status
+  530  git pull
+  531  git push
+  532  git checkout main
+  533  git merge feature
+  534  git status
+  535  ls -la
+  536  git status
+  537  git checkout feature
+  538  ls -la
+  539  git  status
+  540  git pull
+  541  gir checkout main
+  542  git checkout main
+  543  git push -u origin main
+  544  history
+  545  history | tail -43 >> history.txt
+  546  ls -la
+  547  cat history.txt
+  548  history |tail -45 > history.txt
+  549  cat history.txt
+  550  history
+  551  history | tail -50 > history.txt
